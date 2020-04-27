@@ -1,0 +1,31 @@
+{
+  "name": "@digitalbonds/un-sdgs",
+  "version": "1.0.0",
+  "description": "Library that contains a set of data related to the Sustainable Development Goals of United Nations.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "mocha",
+    "watch:test": "mocha --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:digitalbonds/un-sdgs.git"
+  },
+  "keywords": [
+    "united nations",
+    "sustainable development goals",
+    "sdg"
+  ],
+  "author": {
+    "name": "Nestor Bonilla",
+    "email": "nbonilla@digitalbonds.org",
+    "url": "https://digitalbonds.org/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
