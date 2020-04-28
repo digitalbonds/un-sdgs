@@ -89,7 +89,6 @@ For use the Sustainable Development Goals icons using react-lottie, you can do i
 ...
 import Lottie from 'react-lottie';
 import { listGoals, getGoal } from '@digitalbonds/un-sdgs';
-...
 
 let language = 'eng';   // 'eng', 'spa'
 let color = 'color';    // 'color', 'white'
@@ -99,7 +98,7 @@ let height = '100px'    // desired height in px or %
 render() {
     return(
         <Lottie
-            options={getGoal(language, color, number)}
+            options={getGoal(language, color, number).json}
             height={height}
         />
     )
